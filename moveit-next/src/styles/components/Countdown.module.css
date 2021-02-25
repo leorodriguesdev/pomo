@@ -68,13 +68,19 @@
     color: var(--title);
 }
 
+
 .countdownButtonActive:not(:disabled):hover {
     background: var(--red);
     color: var(--white);
 }
 
-.countdownButton:disabled {
+.countdownButton:disabled{
     background: var(--white);
     color: var(--text);
     cursor: not-allowed;
+    border-bottom:5px solid var(--green)
+}
+
+.countdownButton:disabled img {
+    height: 15px;
 }
