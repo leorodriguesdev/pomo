@@ -27,3 +27,30 @@ span.currentExperience {
     top: 12px;
     transform: translateX(-50%);
 }
+
+/* Responsividade para tablets */
+@media (max-width: 768px) {
+    .experienceBar > div {
+        margin: 0 1rem;
+    }
+    
+    .experienceBar span {
+        font-size: 0.9rem;
+    }
+}
+
+/* Responsividade para smartphones */
+@media (max-width: 480px) {
+    .experienceBar > div {
+        margin: 0 0.75rem;
+    }
+    
+    .experienceBar span {
+        font-size: 0.8rem;
+    }
+    
+    span.currentExperience {
+        font-size: 0.75rem;
+        top: 10px;
+    }
+}

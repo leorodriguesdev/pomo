@@ -1,0 +1,44 @@
+.container {
+    height: 100vh;
+    max-width: 992px;
+    margin: 0 auto;
+    padding: 2.5rem 2rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.container section {
+    flex: 1;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6.25rem;
+    align-content: center;
+}
+
+/* Responsividade para tablets */
+@media (max-width: 768px) {
+    .container {
+        padding: 1.5rem 1rem;
+        height: auto;
+        min-height: 100vh;
+    }
+
+    .container section {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        align-content: start;
+    }
+}
+
+/* Responsividade para smartphones */
+@media (max-width: 480px) {
+    .container {
+        padding: 1rem 0.5rem;
+    }
+
+    .container section {
+        gap: 1.5rem;
+    }
+}

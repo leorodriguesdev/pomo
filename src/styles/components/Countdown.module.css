@@ -84,3 +84,61 @@
 .countdownButton:disabled img {
     height: 15px;
 }
+
+/* Responsividade para tablets */
+@media (max-width: 768px) {
+    .countdownContainer > div {
+        font-size: 6rem;
+    }
+    
+    .countdownContainer > span {
+        font-size: 4.5rem;
+        margin: 0 0.25rem;
+    }
+    
+    .countdownButton {
+        height: 4rem;
+        font-size: 1.1rem;
+        margin-top: 1.5rem;
+    }
+}
+
+/* Responsividade para smartphones */
+@media (max-width: 480px) {
+    .countdownContainer {
+        gap: 0.5rem;
+    }
+    
+    .countdownContainer > div {
+        font-size: 4rem;
+        padding: 1rem 0;
+    }
+    
+    .countdownContainer > span {
+        font-size: 3rem;
+        margin: 0;
+        transform: rotate(90deg);
+    }
+    
+    .countdownButton {
+        height: 3.5rem;
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+}
+
+/* Responsividade para telas muito pequenas */
+@media (max-width: 320px) {
+    .countdownContainer > div {
+        font-size: 3.5rem;
+    }
+    
+    .countdownContainer > span {
+        font-size: 2.5rem;
+    }
+    
+    .countdownButton {
+        height: 3rem;
+        font-size: 0.9rem;
+    }
+}
