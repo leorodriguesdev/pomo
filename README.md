@@ -1,6 +1,8 @@
-# 🍅 Move.it - Aplicação Pomodoro com Gamificação
+# 🍅 Pomo - Aplicação Pomodoro com Gamificação
 
 Uma aplicação web inspirada na técnica Pomodoro que combina produtividade com exercícios físicos e cuidados com a saúde, desenvolvida com Next.js e TypeScript.
+<!-- link do projeto -->
+<!-- https://pomo-puce.vercel.app/ -->
 
 ## 📸 Screenshots
 
@@ -16,10 +18,15 @@ Uma aplicação web inspirada na técnica Pomodoro que combina produtividade com
   
 </div>
 
+## 🔗 Acesso ao Projeto
+
+Você pode acessar o projeto através do link: [Pomo](https://pomo-puce.vercel.app/)
+
+
 
 ## 📋 Sobre o Projeto
 
-O Move.it é uma aplicação que implementa a técnica Pomodoro (25 minutos de foco + 5 minutos de pausa) com um sistema de gamificação. Durante as pausas, o usuário recebe desafios de exercícios físicos e para os olhos, ganhando experiência (XP) ao completá-los e subindo de nível.
+O Pomo é uma aplicação que implementa a técnica Pomodoro (25 minutos de foco + 5 minutos de pausa) com um sistema de gamificação. Durante as pausas, o usuário recebe desafios de exercícios físicos e para os olhos, ganhando experiência (XP) ao completá-los e subindo de nível.
 
 ### ✨ Funcionalidades Implementadas
 
